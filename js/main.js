@@ -29,7 +29,7 @@ var myLineChart = new Chart(lineChart, {
 			pointHoverRadius: 4,
 			pointHoverBorderWidth: 1,
 			pointRadius: 4,
-			backgroundColor: 'transparent',
+			backgroundColor: 'rgba(29.0, 122.0, 243.0, 0.1)',
 			fill: true,
 			borderWidth: 2,
 			data: [542, 480, 430, 550, 530, 453, 380, 434, 568, 610, 700, 900]
@@ -38,13 +38,7 @@ var myLineChart = new Chart(lineChart, {
 	options : {
 		responsive: true,
 		maintainAspectRatio: false,
-		legend: {
-			position: 'bottom',
-			labels : {
-				padding: 10,
-				fontColor: '#1d7af3',
-			}
-		},
+		legend: undefined,
 		tooltips: {
 			bodySpacing: 4,
 			mode:"nearest",
@@ -73,7 +67,7 @@ var MySecondChart = new Chart(SecondChart, {
 			pointHoverRadius: 4,
 			pointHoverBorderWidth: 1,
 			pointRadius: 4,
-			backgroundColor: 'transparent',
+			backgroundColor: 'rgba(29.0, 122.0, 243.0, 0.1)',
 			fill: true,
 			borderWidth: 2,
 			data: [234, 50, 636, 206, 464, 453, 380, 802, 701, 655, 702, 600]
@@ -82,13 +76,7 @@ var MySecondChart = new Chart(SecondChart, {
 	options : {
 		responsive: true,
 		maintainAspectRatio: false,
-		legend: {
-			position: 'bottom',
-			labels : {
-				padding: 10,
-				fontColor: '#1d7af3',
-			}
-		},
+		legend: undefined,
 		tooltips: {
 			bodySpacing: 4,
 			mode:"nearest",

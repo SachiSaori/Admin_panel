@@ -49,3 +49,20 @@
   .treeCSS .dropM + ul {
     display: block;
   }
+
+/* Table sorting */
+.sort table {
+  border-collapse: collapse;
+}
+
+.sort th {
+  cursor: pointer;
+}
+
+th.sorted[data-order="-1"]::after {
+	content: "▼"
+}
+
+th.sorted[data-order="1"]::after {
+	content: "▲"
+}
